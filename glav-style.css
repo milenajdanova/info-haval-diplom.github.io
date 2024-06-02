@@ -1,0 +1,77 @@
+
+    
+    .logo{
+    margin: 0 40px 0;
+    }
+    
+    @font-face{
+    font-family:'havelock-titling';
+    src:local('havelock-titling'),
+    url('/fonts/havelock-titling.ttf') format('truetype');
+    }
+    
+    a{
+      text-decoration: none;
+    }
+
+   
+    
+    .link {
+        align-items: center;
+        margin: 0px 0px 0px 0px;
+        list-style: none;
+        padding: 15px 100px;
+        float: left;
+        text-decoration: none;
+        font-family:'havelock-titling';
+        font-size: 20px;
+        font: black;     
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        margin-bottom: 40px;
+        margin-left: 40px;
+      }
+    
+      .title-a{
+        font-size: 50px;
+        padding: 120px 0px 0px 200px ;
+        }
+
+    .title{
+    font-size: 50px;
+    padding: 0px 0px 0px 200px ;
+    }
+    
+    .interesting-fact{
+    background-color:#84e9e4;   
+    font-style:italic;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    }
+    
+    .fact-text{
+    margin: 0px 350px 0px;
+    }
+    
+    .in-russia{
+    padding: 20px;    
+    }
+    
+    .site-footer {
+      padding: 20px 0 0 50px;
+       background-color: #121314; 
+       font-size: 20px;
+       font-family:'havelock-titling';
+    
+     }
+
+     .copyright{
+      margin: 0px 20px 0px;
+      padding: 20px 0; 
+        color:#00C9BF;
+      }
+
+      .text{
+        font-size: 20px;
+        font-family:'havelock-titling';
+        margin: 0px 200px 0px; 
+        }

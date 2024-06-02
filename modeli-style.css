@@ -1,0 +1,181 @@
+
+@font-face{
+    font-family:'havelock-titling';
+    src:local('havelock-titling'),
+    url('/fonts/havelock-titling.ttf') format('truetype');
+    }
+    
+    .logo{
+      margin: 0 40px 0;
+      }
+
+      a{
+        text-decoration: none;
+      }
+
+    p{
+    font-size: 20px;
+    font-family:'havelock-titling';
+    }
+    
+  
+  .container {
+    width: 1050px;
+    margin: 0 auto;
+  }
+
+  .container:not(:nth-child(-n+10)){
+    display: none;
+  }
+
+  .link {
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    list-style: none;
+    padding: 15px 100px;
+    float: left;
+    text-decoration: none;
+    font-family:'havelock-titling';
+    font-size: 20px;
+    font: black;     
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+    margin-left: 40px;
+  }
+
+  .oglav-a{
+    font-size: 50px;
+    padding: 120px 0px 0px 0px ;
+    margin: 0px 500px 0px; 
+  text-align: center;
+  box-shadow: 0px 5px 0px #00C9BF;
+    }
+
+    .oglav-b{
+      font-size: 25px;
+      padding: 25px 750px 0px 0px ;
+    text-align: center;
+    box-shadow: 0px 5px 0px #00C9BF;
+      }
+
+      .oglav-с{
+        font-size: 25px;
+        padding: 25px 790px 0px 0px ;
+      text-align: center;
+      box-shadow: 0px 5px 0px #00C9BF;
+        }
+
+  .intro{
+    background-color: #121314;
+    margin: 40px 0;
+    padding:60px 0px ;
+    color:#00C9BF;
+    font-size: 50px;
+  }
+  
+  .section-title {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  
+  .oglav{
+  font-size: 50px;
+  text-align: center;
+  padding: 0px 0px 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title{
+    font-size: 35px;
+    padding: 35px;
+    }
+
+    .info{
+        font-size: 20px;
+        padding: 0px 250px 0px 0px ;
+    text-align: center;
+    }
+  
+  .title b,
+  .section-title b {
+    font-weight: 400;
+  }
+  
+  .intro p {
+    width: 210px;
+    margin: 8px 0 10px;
+    padding: 0;
+    line-height: 20px;
+  }
+  
+  .products-list {
+    display: flex;
+    padding: 14px 0 0;
+    margin: 0 0 0 -20px;
+    list-style: none;
+  }
+  
+  .product-card {
+    position: relative;
+    width: 300px;
+    height: 100px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    padding: 225px 20px 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(134, 134, 134, 0.2);
+  }
+  
+  .product-card img {
+    padding: 15px 0px 0px;
+    position: absolute;
+    top: 0;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  #img_container img.verh:hover {
+    opacity: 0;
+  }
+  
+  .product-card p {
+    margin: 0 0 8px 0;
+    padding: 0;
+    line-height: 16px;
+  }
+  
+  .site-footer {
+   padding: 20px 0 0 50px;
+    background-color: #121314; 
+  }
+  
+  .site-footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+  }
+  .copyright{
+  margin: 0px 20px 0px;
+  padding: 20px 0; 
+    color:#00C9BF;
+  }
+
+.knop{
+  font-size: 25px;
+  padding: 25px 720px 0px 0px ;
+text-align: center;
+box-shadow: 0px 5px 0px #00C9BF;
+}
+
+.btn{
+  border: none;
+  font-family:'havelock-titling';
+  background-color: #ffffff;
+  font-size: 25px;
+}

@@ -1,0 +1,76 @@
+@font-face{
+    font-family:'havelock-titling';
+    src:local('havelock-titling'),
+    url('/fonts/havelock-titling.ttf') format('truetype');
+    }
+    
+
+    .logo{
+      margin: 0 0px 0 40px;
+      }
+  
+    .text{
+    font-size: 20px;
+    font-family:'havelock-titling';
+    margin: 0px 200px 0px; 
+    }
+  
+    .title{
+      font-size: 50px;
+      padding: 120px 0px 0px 0px ;
+    text-align: center;
+    box-shadow: 0px 5px 0px #00C9BF;
+      }
+
+.map{
+  padding: 30px;
+  text-align: center;
+}
+
+      .gorod-a{
+        font-weight: bold;
+        font-size: 25px;
+        color:#00C9BF;
+        padding: 50px 0px 0px 10px;
+      }
+
+    .gorod{
+      font-weight: bold;
+      font-size: 25px;
+      color:#00C9BF;
+      padding: 20px 0px 0px 10px;
+    }
+    
+a{
+  text-decoration: none;
+}
+
+
+
+.site-footer {
+  padding: 20px 0 0 50px;
+   background-color: #121314; 
+   font-size: 20px;
+   font-family:'havelock-titling';
+
+ }
+      
+     
+      .copyright{
+      margin: 0px 20px 0px;
+      padding: 20px 0; 
+        color:#00C9BF;
+        font-size: 20px;
+        font-family:'havelock-titling';
+      }
+    
+      .link {
+        list-style: none;
+        padding: 15px 100px;
+        float: left;
+        font-family:'havelock-titling';
+        font-size: 20px; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        margin-bottom: 40px;
+        margin-left: 40px;
+      }

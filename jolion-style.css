@@ -1,0 +1,76 @@
+@font-face{
+    font-family:'havelock-titling';
+    src:local('havelock-titling'),
+    url('/fonts/havelock-titling.ttf') format('truetype');
+    }
+    
+  
+    p{
+    font-size: 20px;
+    font-family:'havelock-titling';
+    }
+  
+    .oglav-a{
+      font-size: 50px;
+      padding: 40px 500px 0px 0px ;
+    text-align: center;
+      }
+    
+    .site-footer {
+   
+        background-color: #121314; 
+      }
+      
+      .site-footer .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #ffffff;
+      }
+      .copyright{
+      margin: 0px 20px 0px;
+      padding: 20px 0; 
+        color:#00C9BF;
+      }
+    
+      .link {
+        align-items: center;
+        margin: 0px 0px 0px 0px;
+        list-style: none;
+        padding: 15px 100px;
+        float: left;
+        text-decoration: none;
+        font-family:'havelock-titling';
+        font-size: 20px;
+        font: black;     
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        margin-bottom: 40px;
+        margin-left: 40px;
+      }
+
+      .container {
+        width: 1500px;
+        margin: 0 auto;
+      }
+
+      .products-list {
+        display: flex;
+        padding: 15px 0 0 0;
+        margin: 0 0 0 0px;
+        list-style: none;
+      }
+      
+      .product-card {
+        position: relative;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        padding: 60px 100px 0 0;
+        background-color: #ffffff;
+        box-shadow: 0 2px 4px rgba(134, 134, 134, 0.2);
+      }
+
+      .product-card img {
+        padding: 15px 0px 0px;
+        position: absolute;
+        top: 0;
+      }
